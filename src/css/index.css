@@ -119,6 +119,23 @@ body {
   justify-content: center;
   align-items: flex-start;
   background-color: #f8e2ee;
+  overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+  width: 1em;
+}
+::-webkit-scrollbar-track {
+  background: rgba(225, 193, 208, 0.4784313725);
+}
+::-webkit-scrollbar-thumb {
+  background: #bcc4dd;
+  border-radius: 1em;
+  border: 2px solid #e1c1d0;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #e1c1d0;
+  border: 2px solid #595959;
 }
 
 .page {
@@ -176,6 +193,15 @@ body {
   border-radius: 50%;
   border: 0.3em solid #e1c1d0;
   overflow: hidden;
+  animation: neon 3s infinite;
+}
+@keyframes neon {
+  0%, 100% {
+    box-shadow: 0 0 20px 10px #e1c1d0;
+  }
+  50% {
+    box-shadow: 0 0 0px 0px #e1c1d0;
+  }
 }
 .avatar__img {
   height: 100%;

@@ -3,6 +3,26 @@
 body {
   @include flexBox($ai: flex-start);
   background-color: $primary;
+  overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+  width: 1em;
+
+  &-track {
+    background: $acrylic-accent;
+  }
+
+  &-thumb {
+    background: $secondary;
+    border-radius: 1em;
+    border: 2px solid $accent;
+  }
+
+  &-thumb:hover {
+    background: $accent;
+    border: 2px solid $gray;
+  }
 }
 
 .page {
@@ -51,6 +71,19 @@ body {
     border-radius: 50%;
     border: 0.3em solid $accent;
     overflow: hidden;
+
+    animation: neon 3s infinite;
+
+    @keyframes neon {
+      0%,
+      100% {
+        box-shadow: 0 0 20px 10px $accent;
+      }
+
+      50% {
+        box-shadow: 0 0 0px 0px $accent;
+      }
+    }
   }
 
   &__img {
