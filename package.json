@@ -4,12 +4,26 @@
   "description": "instagram bio links landing page",
   "main": "index.html",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "lint": "eslint --fix . --ext .js",
+    "format": "prettier --write .",
+    "watch": "sass --watch ./src/sass/:./src/css/"
   },
   "keywords": [
     "linktree",
-    "landing-page"
+    "landing-page",
+    "free"
   ],
   "author": "Rodrigo Andre Gutierrez <rodrigoandregutierrez@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^8.42.0",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-config-standard": "^17.1.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-n": "^16.0.0",
+    "eslint-plugin-promise": "^6.1.1",
+    "prettier": "^2.8.8",
+    "sass": "^1.63.3"
+  }
 }

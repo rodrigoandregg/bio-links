@@ -7,11 +7,11 @@
 
 @mixin btn(
   $bg-clr: $acrylic-light,
-  $hover-bg: $accent,
+  $hover-bg: $gray,
   $clr: $light,
-  $hover-clr: $secondary,
-  $p: 0.5em 1em,
-  $fsz: 1.2em
+  $hover-clr: $light,
+  $p: 0.5em 0.5em,
+  $fsz: 1.1em
 ) {
   @include flexBox;
   gap: 1em;
@@ -21,7 +21,7 @@
   color: $clr;
   background-color: $bg-clr;
   backdrop-filter: blur(1em);
-  border-radius: 0.5em;
+  border-radius: none;
   text-transform: uppercase;
   transition: all 1s;
   user-select: none;
@@ -33,7 +33,7 @@
   }
 
   &:active {
-    background-color: $primary;
+    background-color: $dark;
     color: $light;
   }
 }
