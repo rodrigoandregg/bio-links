@@ -3,6 +3,7 @@
 # Landing page para biografía de Redes Sociales
 
 Este es una plantilla de _landing page_ estilo árbol de enlaces personales, puedes clonar el repositorio para usarlo en lo que quieras.
+
 Posee:
 
 - barra de scroll personalizada.
@@ -17,7 +18,7 @@ Posee:
 
 - Según 🤓 [SoyBorjaLopez](https://soyborjalopez.es/que-es-pagina-arbol-enlaces/#:~:text=Una%20p%C3%A1gina%20o%20%C3%A1rbol%20de%20enlaces%20es%2C%20como%20su%20nombre,aquellas%20p%C3%A1ginas%20que%20te%20interesan.): Una página o _**Árbol de enlaces**_ es, como su nombre indica, una página con enlaces que dirigen a otras páginas. Disponer de una página de enlaces resulta bastante útil para dirigir tráfico hacia aquellas páginas que te interesan.
 
-[![Live Site](https://img.shields.io/static/v1?label=&message=Live%20Site&color=6cccb4&style=for-the-badge)](https://linktree-hazel.vercel.app/)
+[![Live Site](https://img.shields.io/static/v1?label=&message=Live%20Site&color=6cccb4&style=for-the-badge)](https://bio-links-alpha.vercel.app/)
 
 <!-- [![Github Repository](https://img.shields.io/static/v1?label=&message=Github%20Repository&color=000000&style=for-the-badge&logo=github&logoColor=white)]() -->
 
