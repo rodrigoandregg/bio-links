@@ -10,7 +10,7 @@
   $hover-bg: $gray,
   $clr: $light,
   $hover-clr: $light,
-  $p: 0.5em 0.5em,
+  $p: 0,
   $fsz: 1.1em
 ) {
   @include flexBox;
@@ -20,7 +20,6 @@
   font-weight: 700;
   color: $clr;
   background-color: $bg-clr;
-  backdrop-filter: blur(1em);
   border-radius: none;
   text-transform: uppercase;
   transition: all 1s;
